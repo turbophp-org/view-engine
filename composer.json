@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/view-engine",
+  "description": "TurboPHP 框架视图引擎库，提供模板渲染、变量绑定和缓存支持，简化前端输出和页面生成。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "view",
+    "template",
+    "engine",
+    "render"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/view-engine/issues",
+    "source": "https://github.com/turbophp-org/view-engine",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/view-engine/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\ViewEngine\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
